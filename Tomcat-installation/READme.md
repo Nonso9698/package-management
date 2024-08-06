@@ -33,8 +33,8 @@ sudo rm -rf apache-tomcat-10.1.28.zip
 ### rename tomcat for good naming convention
 sudo mv apache-tomcat-10.1.28 tomcat10
 ### assign executable permissions to the tomcat home directory
-sudo chmod 777 -R /opt/tomcat9
-sudo chown ec2-user -R /opt/tomcat9
+sudo chmod 777 -R /opt/tomcat10
+sudo chown ec2-user -R /opt/tomcat10
 ### start tomcat
 sh /opt/tomcat9/bin/startup.sh
 # create a soft link to start and stop tomcat
